@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "poetry-demo"
-version = "1.0.0"
+name = "poetry-with-codeartifact"
+version = "0.1.0"
 description = ""
 authors = ["Keisuke69 <providence000@gmail.com>"]
 
@@ -8,6 +8,7 @@ authors = ["Keisuke69 <providence000@gmail.com>"]
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
+twine = "^3.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
